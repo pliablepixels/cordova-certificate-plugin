@@ -34,34 +34,18 @@ SOFTWARE.
     <author>Martin Reinhardt</author>
     <license>MIT</license>
     <keywords>cordova,certificates,ssl</keywords>
-    <repo>https://github.com/hypery2k/cordova-certificate-plugin.git</repo>
-    <issue>https://github.com/hypery2k/cordova-certificate-plugin/issues</issue>
+    <repo>https://github.com/pliablepixels/cordova-certificate-plugin.git</repo>
+    <issue>https://github.com/pliablepixels/cordova-certificate-plugin/issues</issue>
 
     <engines>
       <engine name="cordova-android" version=">=4.1.0" />
-      <engine name="cordova-ios" version=">=3.4.0" />
     </engines>
 
     <js-module src="www/certificate.js" name="Certificates">
         <clobbers target="cordova.plugins.certificates" />
     </js-module>
 
-    <!-- ios -->
-    <platform name="ios">
-        <config-file target="config.xml" parent="/*">
-    		<feature name="CDVCertificate">
-    			<param name="ios-package" value="CDVCertificate"/>
-    		</feature>
-        </config-file>
-
-		<header-file src="src/ios/CDVCertificate.h" />
-		<source-file src="src/ios/CDVCertificate.m" />
-
-		<header-file src="src/ios/NSURLRequest+AllowUntrustedCertificates.h" />
-		<source-file src="src/ios/NSURLRequest+AllowUntrustedCertificates.m" />
-    </platform>
-
-    <!-- android -->
+        <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">            
             <feature name="CertificatesPlugin" >

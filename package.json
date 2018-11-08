@@ -1,24 +1,22 @@
 {
-  "name": "cordova-plugin-certificates",
-  "version": "0.6.4",
-  "description": "Cordova Certificate Plugin",
+  "name": "cordova-plugin-certificates-pp-fork",
+  "version": "0.9.0",
+  "description": "Cordova Certificate Plugin for Android",
   "cordova": {
-    "id": "cordova-plugin-certificates",
+    "id": "cordova-plugin-certificates-pp-fork",
     "platforms": [
-      "android",
-      "ios"
+      "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hypery2k/cordova-certificate-plugin.git"
+    "url": "https://github.com/pliablepixels/cordova-certificate-plugin.git"
   },
   "keywords": [
     "cordova",
     "certificates",
     "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios"
+    "cordova-android"
   ],
   "author": "Martin Reinhardt",
   "license": "MIT"
